@@ -14,4 +14,9 @@ function findObjPropsHasOwn(obj) {
 function findObjKeys(obj) {
   let objKey = Object.keys(obj);
   return objKey.join(", ");
+
+  /* Good job! You can actually join these two lines like this
+      return Object.keys(obj).join(', ')
+  */
 }
+

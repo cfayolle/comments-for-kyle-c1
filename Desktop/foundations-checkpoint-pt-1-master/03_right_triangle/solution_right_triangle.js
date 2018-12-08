@@ -10,3 +10,5 @@ function rightTriangle(num) {
   }
   return triangle;
 }
+
+// Good job!

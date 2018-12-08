@@ -39,3 +39,6 @@ function simulateBattle(p1, p2, goesFirst) {
     }
   }
 }
+
+
+// Good job! As a challenge, try doing simulateBattle with only one while loop :)

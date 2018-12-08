@@ -6,5 +6,7 @@ function thrice(func) {
       return func();
     }
     return undefined;
+
+    // JavaScript functions return undefined by default so line 8 is unnecessary!
   };
 }

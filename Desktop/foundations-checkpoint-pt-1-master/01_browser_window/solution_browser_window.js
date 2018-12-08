@@ -6,6 +6,8 @@ function BrowserWindow(accountName, windowName, tabs) {
   } else {
     this.tabs = [Object({ tabURL: "defaultHomePage.com" })];
   }
+
+  // Give this a read and try it out!! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
 }
 
 BrowserWindow.prototype.joinWindows = function(window) {
